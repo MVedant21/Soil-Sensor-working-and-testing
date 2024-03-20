@@ -4,7 +4,7 @@
 
 ## Overview
 
-A hand sign language translator to english alphabets and numbers.
+Verifying and testing of the Soil-sensor with self written ide code.
 
 ## Table of Contents
 
@@ -18,15 +18,12 @@ A hand sign language translator to english alphabets and numbers.
 
 ## Introduction
 
-This device is designed to seamlessly translate hand movements in American Sign Language (ASL) into numbers and letters, facilitating effortless communication for individuals with visual impairments. 
-The primary objective of this device is to empower those facing visibility challenges by providing them with a convenient and effective means of expressing themselves through sign language, ultimately enhancing their communication experience.
+The sensor helps detecting the NPK values along with soil-moisture, soil-humidity, soil-pH and soil-temperature. The testing of this sensor is achieved with the help of Arduino UNO. 
+The code written helps the connected sensor to display the values mentioned above in a specific format.
 
 ## Features
 
-The data of Flex sensors along with Gyroscope/Accelerometer was collected to classify each number and letter independently. 
-Th unique positions of each and every finger along with the position of the palm leads to a different letter or a number.
-Enables people to communicate with just hand and finger movements, thus helping the disabled.
-The communication happens via bluetooth connection to the user's device.
+The data sensed by the sensor is passed on to the RS-485 modbus which is then connected to the arduino along with appropriate 
 
 ## Hardware Components
 
